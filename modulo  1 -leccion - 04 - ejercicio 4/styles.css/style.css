@@ -1,0 +1,23 @@
+header {
+  background-color: khaki;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.articulo-1 {
+  background-color: lightcyan;
+}
+.articulo-2 {
+  background-color: lightsalmon;
+}
+.articulo-3 {
+  background-color: mediumturquoise;
+}
+.articulo-4 {
+  background-color: palegreen;
+}
+.articulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

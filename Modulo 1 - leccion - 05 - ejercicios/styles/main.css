@@ -1,0 +1,192 @@
+/*ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  margin: 12px;
+  color: darkmagenta;*/
+}
+/*Ejercicio 2*/
+.hija {
+  width: 300px;
+  height: 300px;
+}
+.mayor {
+  background-color: chartreuse;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.mediana {
+  background-color: cornflowerblue;
+  position: relative;
+  right: 150px;
+  bottom: 320px;
+}
+.pequeña {
+  background-color: darkgreen;
+  position: relative;
+  left: 180px;
+  bottom: 240px;
+
+}
+/*Ejercicio 3*/
+
+.cabecera {
+  background-color: darkorchid;
+  position: fixed;
+  z-index: 990;
+  width:100%;
+  align-content: center;
+  
+}
+
+  
+  
+}
+.container {
+  position: static;
+  top: 200px;
+
+}
+/*Ejercicio 5*/
+.caja{
+  box-sizing: border-box;
+  transform: translate(300px, 0px);
+  
+}
+.uno {
+  position: absolute;
+  width:500px;
+  height: 500px;
+  background-color: yellow;
+  padding:40px;
+  border-width:2px;
+
+  
+  
+}
+.dos {
+  position:absolute;
+  width:300px;
+  height:300px;
+  background-color:green;
+  padding:75px;
+  left: 100px;
+  top: 120px;
+  
+  
+ 
+}
+ 
+ .tres {
+  position: absolute;
+  width: 150px;
+  height:150px;
+  background-color:blue;
+  border-style: dotted;
+  left:170px;
+  top: 190px;px;
+}
+  
+  
+/*Ejercicio 6*/
+main{
+  position:absolute;
+
+}
+
+.footer{
+  position:fixed;
+  height: 100px;
+  background-color: yellow;
+  transform: translate(0px,500px);
+ 
+  }
+  /* Ejercicio 7
+  p {
+    
+    width: 86vw;
+    max-width: 600px;
+    transform: translate(300px);*/
+  }
+  /*Ejercicio 8--> en clase*/
+
+  /*Ejercicio 9*/
+
+/*
+  body {
+  box-sizing: border-box;
+   border-style: solid;
+   border-width: 10px;
+   height: 100 vh;
+   width: 100px;
+   position: absolute;
+
+   }
+
+  div {
+    position: absolute;
+    margin-top: 106px;
+    top:50px;
+    left:50px;
+    transform: translate(-50px, 50px);
+    background-color: grey;
+    
+    
+}
+ 
+  .autor {
+    margin-bottom: 40px;
+  }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 32px;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+    
+  
+
+}
+.texto{
+margin-bottom: 18px;
+}
+ul{
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right:16px ;
+  margin-left: -16px;
+}
+*/
+/* Ejercicio 10*/
+
+
+}
+ul {
+  list-style: none;
+}
+a {
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: gold;
+}
+p {
+  padding-bottom: 10px;
+}
+
+
+
+
+
+
+ 
+ 
+
+
+  
