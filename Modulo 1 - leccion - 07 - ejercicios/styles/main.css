@@ -26,3 +26,14 @@
   transform: translateY(-50%);
   color: white;
 }
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  .icon {
+    transform: none;
+  }
+}
