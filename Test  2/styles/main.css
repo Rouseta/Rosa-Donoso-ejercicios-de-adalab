@@ -20,7 +20,8 @@
   height: 50px;
   background-color: skyblue;
   border-radius: 50px;
-  transform: translatey(-8px);
+  border: rgb(101, 183, 231) groove;
+  transform: translatey(-10px);
 }
 .ball2 {
   width: 25px;
