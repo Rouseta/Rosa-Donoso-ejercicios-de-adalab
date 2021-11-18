@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adalab Web Starter Kit</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+   
+
+  <body>
+    <fieldset>
+    <form action="https://adalab-server-form.herokuapp.com" method="GET">
+      <label for="firstName">Nombre</label>
+      <input
+        placeholder="Escribe tu nombre de pila"
+        type="text"
+        name="firstName"
+        required
+      />
+      <label for="lastName">Apellidos</label>
+      <input
+        placeholder="Escribe aquí tus apellidos"
+        type="text"
+        name="lastName"
+        required
+      />
+      <label for="emailAdress">Dirección de correo electrónico</label>
+      <input
+        placeholder="Email"
+        type="email"
+        id=" emailAdress"
+        name="emailAdress"
+        required
+      />
+
+      <label for="adress">Dirección </label>
+      <input placeholder="Calle" type="text" id="adress" /> required
+      <lable for="city">Ciudad</lable>
+      <input placeholder="Ciudad" type="text" id="City" />
+      <lable for="region">Provincia</lable>
+      <input placeholder="Provincia" type="text" id="region" value="Madid" /> </fieldset>
+      <lable for="Country">País</lable>
+      <input placeholder="País" type="text" id="Country" value="España" />
+      <lable for="Id">DNI/NIE</lable>
+      <input placeholder="DNI/NIE" type="text" id="Id" />
+      <lable for="phoneNumber">Teléfono</lable>
+      <input placeholder="Teléfono" type="tel" id="phoneNumber" />
+      <lable for="pw">Contraseña</lable>
+      <input placeholder="Contraseña" type="password" id="pw" />
+      <lable for="confirmPw">Confirmar contraseña</lable>
+      <input placeholder="Confirmar" type="text" id="confirmPw" />
+      <input type="submit" value="Enviar" />
+      <label for="size">Talla de zapato:</label>
+      <select id="size" name="size">
+        <option value="36">36</option>
+        <option value="37">37</option>
+        <option value="38">38</option>
+        <option value="39">39</option>
+        <option value="40">40</option>
+        <option value="41">41</option>
+        <option value="42">42</option>
+        <option value="43">43</option>
+        <option value="44">44</option>
+        <!-- ... continuación de la serie --></select
+      >s
+    </form>
+  </body>
+</html>
