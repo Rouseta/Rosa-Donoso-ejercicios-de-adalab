@@ -16,7 +16,12 @@ h1 {
   color: lightpink;
 }
 
-.menu {
+nav.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex;
+  background-color: lightgreen;
 }
 .menu--list {
   padding-right: 25px;
