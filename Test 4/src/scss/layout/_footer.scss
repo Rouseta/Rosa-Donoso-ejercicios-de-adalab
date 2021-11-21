@@ -13,10 +13,12 @@
 }
 
 .menu-footer__list {
-  padding: 15px;
   list-style: none;
   grid-column: 1;
   grid-row: 1;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-left: 15px;
 }
 .rosa {
   grid-column: 2;

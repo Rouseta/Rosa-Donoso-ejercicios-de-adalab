@@ -2,11 +2,33 @@
   padding: 0;
   margin: 0;
 }
+header {
+  overflow: hidden;
+}
+.rosis {
+  animation-duration: 10s;
+  animation-name: intro;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+}
+
+@keyframes intro {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0;
+    color: white;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .header {
   background-color: rgb(243, 73, 101);
   position: fixed;
   width: 100%;
-  z-index: 1;
 }
 h1 {
   padding-left: 25px;
@@ -56,7 +78,7 @@ a {
 
 @media all and (min-width: 360px) {
   .header {
-    position: relative;
+    position: static;
     flex-direction: column;
     justify-content: center;
     align-items: center;
