@@ -14,8 +14,9 @@
 //const EjercicioElement = document.querySelector ('.test');
 //const contenido = '<li>1</li><li>2</li><li>3</li>';
 //EjercicioElement.innerHTML = contenido;
-
-
+const botonA = document.querySelector ('.buttonA');
+const botonB = document.querySelector ('.buttonB');
+botonB.classList.add ('transparencia');
 
 //titleElement.innerHTML = titleElement.innerHTML + listElement.innerHTML;
 //navElement.innerHTML = content;
@@ -26,7 +27,3 @@
 //enunElement.innerHTML = Titu;
 //imgElement.innerHTML = Foto;
 //contentElement.innerHTML = pe;
-
-
-
-
