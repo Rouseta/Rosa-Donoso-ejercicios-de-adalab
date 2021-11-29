@@ -17,6 +17,7 @@
 const botonA = document.querySelector ('.buttonA');
 const botonB = document.querySelector ('.buttonB');
 botonB.classList.add ('transparencia');
+botonA.classList.add ('tamaño');
 
 //titleElement.innerHTML = titleElement.innerHTML + listElement.innerHTML;
 //navElement.innerHTML = content;
