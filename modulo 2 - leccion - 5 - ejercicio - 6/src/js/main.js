@@ -1,9 +1,15 @@
 'use strict';
 
-const input = document.querySelector('.input').value;
+const input = document.querySelector('.input');
 const paragraph = document.querySelector('.text');
-let evento = "";
-function getInput(evento) {
-    console.log(evento.currentTarget);
+
+
+
+function getInput(event) {
+    paragraph.innerHTML = event.currentTarget.value;
+
+
 }
+input.addEventListener('keydown', getInput);
+
 
