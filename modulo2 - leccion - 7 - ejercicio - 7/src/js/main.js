@@ -35,28 +35,33 @@ const contacts = [
 
 ];
 //Una función countAdalabers que devuelve el número de adalabers en el listado.
-function countAdalabers() {
+function countAdalabers(contacts) {
     console.log(contacts.length);
     return contacts.length;
 }
 //Una función averageAge que devuelve la media de edad de listado.
+
 function getAverageAge(contacts) {
+    let i = 0;
     for (let i = 0; i < contacts.length; i++) {
-        avrg += contacts.adalaberAge[0, 1, 2, 3] / contacts.length;
-        return avrg;
+        suma += contacts[i].edad;
+        return suma;
     }
+    let avrg = suma / contacts.lenght
+    return avrg;
 
 
 }
-console.log(getAverageAge(contacts.adalaberAge[0, 1, 2, 3]));//No me sale
+console.log(getAverageAge(contacts.adalaberAge));
+
 
 //Una función theYoungest que devuelve el nombre de la adalaber más joven.
 
-const edades = {
+/*const edades = {
     name: '´La más joven',
     ages: [29, 31, 34, 21],
     adalaberNames: ['María', 'Lucía', 'Susana', 'Inmaculada']
 };
 function the Youngest(){
 
-}
+}*/

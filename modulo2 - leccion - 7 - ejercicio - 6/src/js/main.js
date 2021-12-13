@@ -6,34 +6,20 @@ const Peli2 = document.querySelector('.peli2');
 
 function getDataUser() {
 
-    const inputPeli = Peli.value;
-    return inputPeli;
-    console.log(inputPeli);
-
+    unction handleFillInput(){
+        const arrPelis = [inputPeli.value, inputPeli2.value];
+        for (const film of arrPelis) {
+            console.log(`A mí también me encantó "${film}"`);
+        }
+    };
+    button.addEventListener('click', handleFillInput);
 }
 
 
-function getDataUser2() {
-    const inputPeli2 = Peli2.value;
-    return inputPeli2
-}
-
-function getFilmsTogether(peli, peli2) {
-    const pelisJuntas = `${inputPeli} ${inputPeli2}`
-    return pelisJuntas;
 
 
 
 
-}
-function escribirHTML(pelis completas) {
-    result.innerHTML = pelisJuntas;
-}
-button.addEventListener("click", getFilmsTogether);
-
-
-
-//function keepArray()
 
 
 
