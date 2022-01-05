@@ -1,0 +1,26 @@
+.main {
+  border: 2px solid black;
+  margin-left: 5px;
+
+  &__title {
+    margin-left: 10px;
+  }
+}
+.form__legend {
+  margin-left: 10px;
+}
+
+.form__box--number {
+  padding: 5px;
+  margin: 10px 0 10px 10px;
+  text-align: center;
+}
+.btn_trial {
+  margin: 10px 0 0 10px;
+}
+.paragraph {
+  border: 1px solid gray;
+  width: 350px;
+  height: 20px;
+  margin-left: 10px;
+}

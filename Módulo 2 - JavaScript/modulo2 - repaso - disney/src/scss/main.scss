@@ -1,0 +1,22 @@
+.images {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.comments {
+  font-weight: bold;
+}
+.friend {
+  background-color: lightblue;
+}
+.title {
+  color: #1da1f2;
+}

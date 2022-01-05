@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+}
+
+.contenedor {
+  background-color: grey;
+  height: 100vh;
+}
+
+.lista {
+  background-color: greenyellow;
+  height: 15vh;
+}
+.main {
+  background-color: yellow;
+  margin-bottom: 10px;
+  height: 40vh;
+}
+.aside {
+  background-color: rgb(51, 48, 48);
+  margin-top: 10px;
+  height: 25vh;
+}
+.box {
+  margin-top: 30px;
+}
+@media all and (min-width: 480px) {
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+.lista {
+  width: 30%;
+}
+.main: {
+    width: 65%;
+    position: relative;
+}
+.aside {
+    position: absolute;
+}
+
+}
+
+  

@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: aqua;
+}
+.menu {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  background-color: bisque;
+}
+.item {
+  display: inline-block;
+}
+
+p {
+  padding: 10px;
+}
+.cookies {
+  background-color: cadetblue;
+  width: 100vw;
+  position: fix;
+  bottom: 0px;
+}
