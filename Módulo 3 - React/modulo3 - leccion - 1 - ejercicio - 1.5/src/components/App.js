@@ -1,4 +1,5 @@
-import '../styles/App.css';
+import '../styles/App.scss';
+
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <span className="counts__computer js-counts__total">1</span>
         </p>
       </form>
+      <footer className="rous">rous&copy; 2022</footer>
     </main>
 
 
