@@ -15,7 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprende React
+          <div>
+            <p>Probando cositas</p>
+            <img class="logo_react" src="./logo192.png"></img>
+          </div>
+
         </a>
       </header>
     </div>

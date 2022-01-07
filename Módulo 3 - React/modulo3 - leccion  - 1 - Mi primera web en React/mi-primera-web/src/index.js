@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; // pinta en la etiqueta root el fichero de public/index.html
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
