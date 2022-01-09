@@ -1,4 +1,5 @@
 import '../styles/App.scss';
+import picture from '../images/GhostInTheShell.png'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <span className="counts__computer js-counts__total">1</span>
         </p>
       </form>
+      <img src={picture} title="anime" alt="Mejor anime del mundo" />
       <footer className="rous">rous&copy; 2022</footer>
     </main>
 
