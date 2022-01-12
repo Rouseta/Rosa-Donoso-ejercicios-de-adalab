@@ -22,7 +22,15 @@ function App() {
         </div>
       );
     } else {
-      return null;
+      return (
+        <div>
+          <p className="paragraph ">Tienes desactivado el dark mode</p>
+          <p className="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            modi expedita, minus, quas nesciunt eius optio facilis tenetur
+            provident beatae, corporis non voluptas. Fugit nisi ex provident
+            quasi vel eligendi</p>
+        </div>
+      );
     }
   };
 
