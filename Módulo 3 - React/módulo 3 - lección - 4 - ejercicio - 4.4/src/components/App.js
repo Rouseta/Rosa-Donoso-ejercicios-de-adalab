@@ -1,0 +1,45 @@
+
+import '../styles/App.scss';
+
+// Fichero src/components/App.js
+import { useState } from 'react';
+
+const App = () => {
+  // Estados
+
+  const [shippingAdress, setShippingAdress] = useState('');
+
+  const [shippingCity, setShippingCity] = useState('');
+
+  // Eventos
+
+  const handleAddress = ev => {
+    setShippingAdress(ev.target.value);
+
+  };
+
+  const handleCity = ev => {
+    setShippingCity(ev.target.value);
+
+  };
+
+  return (
+    <div>
+      <h1>Indica tu dirección para el envío:</h1>
+
+      <form>
+        <label htmlFor="address">Indica tu dirección postal:</label>
+        <input type="text" id="address" value={shippingAdress} onChange={handleAddress} />
+        <label htmlFor="city">Indica tu ciudad:</label>
+        <input type="text" id="city" value={shippingCity} onChange={handleCity} />
+      </form>
+
+      <p>
+        Te lo vamos a enviar a la dirección <strong>{shippingAdress}</strong> en la ciudad
+        <strong> {shippingCity}</strong>.
+      </p>
+    </div>
+  );
+};
+
+export default App;
