@@ -1,9 +1,8 @@
-// Fichero src/index.js (código nuevo)
-import './styles/index.scss'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
 import App from './components/App';
+import "./styles/index.scss";
 
 ReactDOM.render(
     <HashRouter>
@@ -11,11 +10,4 @@ ReactDOM.render(
     </HashRouter>,
     document.getElementById('root')
 );
-
-
-
-
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
 
