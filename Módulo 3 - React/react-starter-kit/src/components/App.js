@@ -3,7 +3,7 @@
 
 // Fichero src/components/App.js
 
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 
 const App = () => {
@@ -11,9 +11,11 @@ const App = () => {
     <div>
       <h2>Este título aparece siempre</h2>
 
-      <Route path="/contacto">
-        <h2>Este título solo aparece cuando la usuaria entra en la página de contacto</h2>
-      </Route>
+      <Switch>
+        <Route path="/contacto">
+          <h2>Este título solo aparece cuando la usuaria entra en la página de contacto</h2>
+        </Route>
+      </Switch>
 
 
       <nav>
